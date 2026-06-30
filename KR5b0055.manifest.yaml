@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0055/v1
+canonical_location: https://kanripo.org/bkk/KR5b0055/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太上洞玄靈寶三塗五苦拔度生死妙經
+  identifiers:
+    alt_id:
+    - DZ0371
+  date: '2015-08-28 23:48:05.474656'
+  source:
+    repository: kanripo
+    path: KR5b0055
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0055_000.yaml, hash: 'sha256:f6454d56ca1b1baaaeed255ac0d2d8cad384c37c4e2f21669d0f38fc6b41efa5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0055_000.markers.yaml, hash: 'sha256:5460fe5b5336fb181908b057fe03af330a2d33511ff99e8203d380b8e478b748'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0055_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2281
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6809a2118926d5ba000abf721980d5e7b9532c2fce771f8c42a9f0e90aca6705
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
